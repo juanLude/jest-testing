@@ -15,7 +15,7 @@ export default function UserList({ users }) {
           <th>Email</th>
         </tr>
       </thead>
-      <tbody>{rederedUsers}</tbody>
+      <tbody data-testid="users">{rederedUsers}</tbody>
     </table>
   );
 }
